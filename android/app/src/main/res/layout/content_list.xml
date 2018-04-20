@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:padding="1dp"
+        android:id="@+id/content_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <EditText
+            android:id="@+id/input_search"
+            android:padding="10dp"
+            android:hint="Pencarian"
+            android:inputType="text"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/btn_search"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_width="49dp"
+            android:layout_height="49dp">
+
+            <ImageView
+                android:src="@mipmap/ic_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@id/content_search"
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/content_search"
+        android:gravity="center"
+        android:id="@+id/content_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@mipmap/ic_empty"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="Tidak ada data yang ditampilkan"
+            android:layout_below="@id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

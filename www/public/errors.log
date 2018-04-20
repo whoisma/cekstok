@@ -1,0 +1,14 @@
+[25-Dec-2017 16:48:30 UTC] PHP Fatal error:  Call to undefined function openssl_encrypt() in C:\webserver\htdocs\your\vendor\laravel\framework\src\Illuminate\Encryption\Encrypter.php on line 73
+[06-Jan-2018 15:20:47 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\webserver\htdocs\display\routes\web.php on line 14
+[06-Jan-2018 15:21:02 UTC] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in C:\webserver\htdocs\display\routes\web.php on line 14
+[06-Jan-2018 15:56:35 UTC] PHP Fatal error:  Class 'App\Http\Controllers\BaseController' not found in C:\webserver\htdocs\display\app\Http\Controllers\PenggunaController.php on line 8
+[06-Jan-2018 16:11:13 UTC] PHP Fatal error:  Class 'App\Stock' not found in C:\webserver\htdocs\display\app\Http\Controllers\StockController.php on line 13
+[07-Jan-2018 15:24:20 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Validator' not found in C:\webserver\htdocs\display\app\Http\Controllers\PenggunaController.php on line 18
+[07-Jan-2018 15:26:25 UTC] PHP Fatal error:  Call to undefined method Illuminate\Contracts\Validation\Validator::make() in C:\webserver\htdocs\display\app\Http\Controllers\PenggunaController.php on line 19
+[07-Jan-2018 15:26:42 UTC] PHP Fatal error:  Call to undefined method Illuminate\Validation\Validator::make() in C:\webserver\htdocs\display\app\Http\Controllers\PenggunaController.php on line 19
+[07-Jan-2018 15:30:38 UTC] PHP Parse error:  syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\webserver\htdocs\display\app\Http\Controllers\PenggunaController.php on line 34
+[07-Jan-2018 18:50:19 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DateTime' not found in C:\webserver\htdocs\display\app\Http\Controllers\KoreksiController.php on line 44
+[07-Jan-2018 18:50:55 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DateTime' not found in C:\webserver\htdocs\display\app\Http\Controllers\KoreksiController.php on line 43
+[07-Jan-2018 19:06:38 UTC] PHP Fatal error:  Class 'App\Http\Controllers\DB' not found in C:\webserver\htdocs\display\app\Http\Controllers\KoreksiController.php on line 40
+[12-Jan-2018 09:33:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65488 bytes) in C:\webserver\htdocs\display\vendor\laravel\framework\src\Illuminate\Container\Container.php on line 629
+[12-Jan-2018 09:33:35 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 65488 bytes) in C:\webserver\htdocs\display\vendor\laravel\framework\src\Illuminate\Container\Container.php on line 629

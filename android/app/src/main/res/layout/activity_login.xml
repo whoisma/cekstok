@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="120dp" />
+
+        <TextView
+            android:text="No. Handphone"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:id="@+id/txt_hp"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edhp"
+            android:hint="6281272672622"
+            android:padding="10dp"
+            android:layout_below="@id/txt_hp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:background="@drawable/border"
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <FrameLayout
+            android:id="@+id/btn_login"
+            android:layout_below="@id/edhp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_btn_pres"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:text="Masuk"
+                android:textSize="20dp"
+                android:textColor="@color/colorGrey"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btn_setting"
+            android:layout_below="@id/btn_login"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+            <TextView
+                android:text="Pengaturan Database"
+                android:textSize="17dp"
+                android:textColor="@color/colorGrey"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>

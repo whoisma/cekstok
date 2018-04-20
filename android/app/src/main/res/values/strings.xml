@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Display Toko</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="splash_col_2">Check Harga &amp; Stock</string>
+    <string name="txt_loading">Loading</string>
+    <string name="txt_perhatian">Perhatian !</string>
+    <string name="txt_oke">Ok</string>
+
+    <string name="err_phone">Isian Nomer Telepon tidak boleh kosong !</string>
+    <string name="err_login">Nomer telepon tidak terdaftar</string>
+    <string name="err_search_text">Isian pencarian tidak boleh kosong !</string>
+    <string name="err_search_text_3">Kata kunci pencarian minimal 3 karakter !</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

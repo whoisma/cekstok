@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="SKU / Kode Product"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_kode"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Nama"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:singleLine="true"
+                android:id="@+id/txt_nama"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Supplier"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_supplier"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Kode Toko"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_toko"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Nama Toko"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_namatoko"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Harga"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_harga"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/colorGrey"
+                android:text="Stok"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_jml"
+                android:textSize="16dp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorAccent"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+            <View
+                android:background="@color/colorTransparant"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
